@@ -1,4 +1,4 @@
-let deadline = new Date("mar 09, 2023 15:00:00").getTime();
+let deadline = new Date("mar 09, 2023 10:30:00").getTime();
   
 let x = setInterval(function() {
   
@@ -17,7 +17,8 @@ document.getElementById("second").innerHTML = seconds;
 if (t < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "TIME UP";
-    document.getElementById("day").innerHTML ='0';document.getElementById("hour").innerHTML ='0';
+    document.getElementById("day").innerHTML ='0';
+    document.getElementById("hour").innerHTML ='0';
     document.getElementById("minute").innerHTML ='0' ; 
     document.getElementById("second").innerHTML = '0'; }
 }, 1000);
