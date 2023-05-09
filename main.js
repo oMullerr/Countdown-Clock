@@ -1,5 +1,5 @@
-let deadline = new Date("mar 11, 2023 11:25:00").getTime();
-  
+let deadline = new Date("December 31, 2023 23:59:59").getTime();
+console.log(deadline);
 let x = setInterval(function() {
   
 const now = new Date().getTime();
